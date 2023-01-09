@@ -1,0 +1,116 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media all and (max-width:1060px) {
+    .about-content {
+        width: 40%;
+    }
+    .about-img {
+        width: 60%;
+    }
+    .footer-img, 
+    .footer-content {
+        width: 50%;
+    }
+    .single-portfolio {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+    .card {
+        height: 350px;
+    }
+}
+@media all and (max-width:769px) {
+    h1 {
+        font-size: 70px;
+    }
+    .about-content {
+        width: 50%;
+    }
+    .about-img {
+        width: 50%;
+    }
+    .card {
+        height: 270px;
+    }
+    #nav {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        bottom: 0;
+        height: 100vh;
+        background-color: var(--darkblue-color);
+        width: 320px;
+        padding: 30px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        z-index: 10000;
+    }
+    #closemenu {
+        display: inline-block;
+        float: right;
+    }
+    #openmenu {
+        display: inline-block;
+    }
+    .menu {
+        clear: both;
+    }
+    .menu li {
+        margin: 0;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width:651px) {
+    h1 {
+        font-size: 60px;
+    }
+    .about-content {
+        width: 100%;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .footer-img, 
+    .footer-content {
+        width: 100%;
+    }
+    .single-portfolio {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .card {
+        height: 460px;
+    }
+    .footer-img {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .header-content, 
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+    .header-link {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .wrapper-footer-menu ul li {
+        float: none;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+ }
+ @media all and (max-width:450px) {
+    .card {
+        height: 350px;
+    }
+ }
